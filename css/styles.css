@@ -193,7 +193,6 @@ button {
 .features-list {
     display: flex;
     gap: 24px;
-    height: 104px;
 
 }
 
@@ -292,11 +291,9 @@ button {
 .team-icon-list {
     display: flex;
     gap: 24px;
-    width: 232px;
-    height: 40px;
     margin-top: 8px;
     background: #fff;
-
+    justify-content: center;
     
 }
 
@@ -413,9 +410,7 @@ button {
 .footer {
     background: #2e2f42;
     padding: 100px 0;
-    display: flex;
-    align-items: baseline
-}
+
 
 
 .footer-logo {
@@ -494,4 +489,15 @@ button {
 .footer-icon {
     fill: white;
 
+}
+
+.container.footer {
+    display: flex;
+    align-items: baseline;
+
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
